@@ -1,0 +1,32 @@
+{
+  "name": "mewtocol-web",
+  "version": "0.0.1",
+  "description": "mewtocol protocol on browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hy1stax/mewtocol-web.git"
+  },
+  "keywords": [
+    "mewtocol",
+    "web",
+    "client"
+  ],
+  "author": "weizhaolu <luweizhao09@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hy1stax/mewtocol-web/issues"
+  },
+  "homepage": "https://github.com/hy1stax/mewtocol-web#readme",
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "http-server": "^14.1.1",
+    "mewtocol-serial": "^0.0.3",
+    "mewtocol-serial-ex": "^0.0.1",
+    "querystring": "^0.2.1",
+    "serialport": "^12.0.0"
+  }
+}
